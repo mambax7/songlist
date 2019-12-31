@@ -273,7 +273,7 @@ switch($action){
 			}
 		}
 		unset($songlists, $categories);		
-		$fmform = new XoopsThemeForm(_AM_SONGLIST_PERM_TEMPLATEAPP, 'fmform', 'permissions.php', "post");
+		$fmform = new XoopsThemeForm(_AM_SONGLIST_PERM_TEMPLATEAPP, 'fmform', 'permissions.php', 'post', true);
 		$fm_select = new XoopsFormSelect(_AM_SONGLIST_PERM_FORUMS, 'forums', null, 10, true);
 		$fm_select->addOptionArray($fm_options);
 		$fmform->addElement($fm_select);

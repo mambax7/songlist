@@ -329,7 +329,7 @@
 	}
 	
 	function songlist_import_get_form() {
-		$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_IMPORT, 'import', $_SERVER['PHP_SELF'], 'post');
+		$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_IMPORT, 'import', $_SERVER['PHP_SELF'], 'post', true);
 		$sform->setExtra( "enctype='multipart/form-data'" ) ;
 		
 		$ele['op'] = new XoopsFormHidden('op', 'import');
@@ -351,7 +351,7 @@
 	}
 	
 	function songlist_importb_get_form($file) {
-		$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_ELEMENTS, 'elements', $_SERVER['PHP_SELF'], 'post');
+		$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_ELEMENTS, 'elements', $_SERVER['PHP_SELF'], 'post', true);
 		
 		$filesize = filesize($GLOBALS['xoops']->path($GLOBALS['songlistModuleConfig']['upload_areas'].$file));
 		$mb = floor($filesize / 1024 / 1024);
@@ -420,10 +420,10 @@
 		$ele = array();
 		
 		if ($object->isNew()) {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_ALBUMS, 'albums', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_ALBUMS, 'albums', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'new');
 		} else {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_ALBUMS, 'albums', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_ALBUMS, 'albums', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'edit');
 		}
 		
@@ -493,10 +493,10 @@
 		$ele = array();
 		
 		if ($object->isNew()) {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_ARTISTS, 'artists', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_ARTISTS, 'artists', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'new');
 		} else {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_ARTISTS, 'artists', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_ARTISTS, 'artists', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'edit');
 		}
 		
@@ -560,10 +560,10 @@
 		$ele = array();
 		
 		if ($object->isNew()) {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_CATEGORY, 'category', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_CATEGORY, 'category', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'new');
 		} else {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_CATEGORY, 'category', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_CATEGORY, 'category', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'edit');
 		}
 		
@@ -642,10 +642,10 @@
 		$ele = array();
 		
 		if ($object->isNew()) {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_SONGS, 'songs', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_SONGS, 'songs', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'new');
 		} else {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_SONGS, 'songs', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_SONGS, 'songs', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'edit');
 		}
 		
@@ -786,10 +786,10 @@
 		$ele = array();
 		
 		if ($object->isNew()) {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_CART, 'votes', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_ISNEW_CART, 'votes', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'new');
 		} else {
-			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_CART, 'votes', $_SERVER['PHP_SELF'], 'post');
+			$sform = new XoopsThemeForm(_FRM_SONGLIST_FORM_EDIT_CART, 'votes', $_SERVER['PHP_SELF'], 'post', true);
 			$ele['mode'] = new XoopsFormHidden('mode', 'edit');
 		}
 		

@@ -27,7 +27,7 @@ License: See /docs - GPL 2.0
 /**
  *  Xoops Form Class Elements
  *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @copyright       XOOPS Project (https://xoops.org)
  * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
  * @package         class
  * @package         kernel
@@ -47,7 +47,7 @@ xoops_load('XoopsFormElement');
  * @author 		Kazumi Ono <onokazu@xoops.org>
  * @author 		Taiwen Jiang <phppp@users.sourceforge.net>
  * @author 		John Neill <catzwolf@xoops.org>
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @copyright   XOOPS Project (https://xoops.org)
  * @package 	kernel
  * @subpackage 	form
  * @access 		public
