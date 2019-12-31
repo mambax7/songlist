@@ -1,8 +1,8 @@
-﻿Vietnamese Alphabets: A B C D Đ E F G H I J K L M N O P Q R S T U Ư V W X Y Z 0 - 9
+Vietnamese Alphabets: A B C D Đ E F G H I J K L M N O P Q R S T U Ư V W X Y Z 0 - 9
 Link Example: http://music.nhacthanh.net/index.php
 
 See excel for list of fields.
-							
+
 1. Search on field Title or Lyric or Artist or Title and Lyric - default to Title
 2. Narrow down search in songlist List1 or List2 or List3....default ALL List
 3. Option to narrow down to genre - setting in admin to turn on/off.
