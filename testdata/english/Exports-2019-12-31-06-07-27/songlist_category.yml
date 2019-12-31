@@ -1,0 +1,48 @@
+-
+    cid: '1'
+    pid: '0'
+    weight: '0'
+    name: Jazz
+    description: '<p>Jazz</p>'
+    image: null
+    path: null
+    artists: '0'
+    albums: '0'
+    songs: '0'
+    rank: '0.000'
+    votes: '0'
+    hits: '15'
+    created: '1577704276'
+    updated: '0'
+-
+    cid: '2'
+    pid: '0'
+    weight: '0'
+    name: Rock
+    description: ''
+    image: null
+    path: null
+    artists: '0'
+    albums: '0'
+    songs: '0'
+    rank: '0.000'
+    votes: '0'
+    hits: '0'
+    created: '1577704290'
+    updated: '0'
+-
+    cid: '3'
+    pid: '1'
+    weight: '0'
+    name: 'Jazz Fusion'
+    description: ''
+    image: null
+    path: null
+    artists: '0'
+    albums: '0'
+    songs: '0'
+    rank: '0.000'
+    votes: '0'
+    hits: '0'
+    created: '1577769035'
+    updated: '0'

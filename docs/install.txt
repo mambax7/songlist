@@ -3,6 +3,3 @@ Read Me First
 
 Please make sure that you download the module from chronolabs to get the latest version, and upload it to your XOOPS Root
 directory from all the content inside the zips htdocs folder.
-
-Intall the module as per the system module and then adjust preferences to suit, remember to set your Invoice Broker, Collection 
-Officer and other groups accordiantly in the groups, this will be created as per your installation.

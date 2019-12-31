@@ -1,0 +1,171 @@
+@CHARSET "ISO-8859-1";
+
+.sl_browsebya {
+    cursor:pointer;
+    cursor:hand;
+    font-weight: 200;
+}
+
+.sl_browsebya hover {
+    font-weight: bold;
+}
+
+.sl_sep {
+    clear:both;
+    height: 6px;
+    text-align:center;
+    width: 100%;
+}
+
+.sl_outersep {
+    clear:both;
+    height: 6px;
+    text-align:center;
+    width: 100%;
+    border-bottom: 2px dashed #000;
+    margin-bottom: 6px;
+}
+
+.sl_breadcrumb {
+    clear:both;
+    text-align:left;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.sl_breadcrumb a {
+    text-align: left;
+    font-size: 1.05em;
+    font-weight: 200;
+}
+
+.sl_catdesc {
+    font-size:1.10em;
+    clear:both;
+}
+
+
+.sl_maincat {
+    font-size:1.23em;
+    clear:both;
+}
+
+.sl_subcat {
+    margin-left:13px;
+    font-size:0.90em;
+    clear:both;
+}
+
+.sl_alphadiva {
+    clear:both;
+    text-align:center;
+}
+
+.sl_alphasubdiva {
+    float:left;
+    width: 20%;
+    clear:none;
+    font-size:1.25em;
+}
+
+.sl_alphasubdivb {
+    top: -7px;
+    position: relative;
+    float:right;
+    width: 70%;
+    clear:none;
+    font-size:1.3em;
+}
+
+.sl_search {
+    clear:both;
+    text-align:center;
+    font-size:1.25em;
+}
+
+.sl_searchdiv {
+    float:left;
+    clear:none;
+}
+
+.sl_pagenav {
+    float:right;
+}
+
+.sl_resulttable {
+
+}
+
+.sl_resulttable tr {
+
+}
+
+.sl_resulttable td {
+
+}
+
+.sl_resulttable tbody {
+
+}
+
+.sl_resulttable thead {
+
+}
+
+.sl_mainartist {
+    font-size:1.23em;
+    clear:both;
+}
+
+.sl_subartist {
+    margin-left:13px;
+    font-size:0.90em;
+    clear:both;
+}
+
+.sl_mainalbum {
+    font-size:1.23em;
+    clear:both;
+}
+
+.sl_subalbum {
+    margin-left:13px;
+    font-size:0.90em;
+    clear:both;
+}
+
+.sl_artalbum {
+    margin:5px 5px 5px 5px;
+    font-size:0.75em;
+    border-style: dotted;
+    border-width: 1px;
+    clear:both;
+}
+
+.sl_subtitle {
+    font-size:1.25em;
+    font-weight: bold;
+}
+
+.sl_mainsong {
+    font-size:1.13em;
+    clear:both;
+    margin-left: 35px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.sl_subsong {
+    margin-left:13px;
+    font-size:0.90em;
+    clear:both;
+}
+
+.sl_artsong {
+    margin:5px 5px 5px 5px;
+    font-size:0.75em;
+    border-style: dotted;
+    border-width: 1px;
+    clear:both;
+    width:320px;
+}
